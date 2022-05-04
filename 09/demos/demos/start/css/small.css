@@ -18,7 +18,7 @@ body {
 
 .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
 .small-12 {width: 100%;}
-
+.small-6{width: 50%;}
 /* header rules */
 header {
     background-color: #9b87b8;
@@ -77,13 +77,18 @@ main img {
 }
 
 
-main h1 {
+main h1, h3 {
     color: #9b87b8;
     font-style: italic;
     margin: .5rem 0 .1rem 0;
-    font-size: 2rem;
 }
 
+main h1{font-size: 2rem;}
+main h3{font-size: 1.2rem;}
+main p{
+    font-size: 1.2rem;
+    margin: 0 0 .3rem 0;
+}
 .labeled {position: relative;}
 .labeled h6, .labeled p {
     position: absolute;

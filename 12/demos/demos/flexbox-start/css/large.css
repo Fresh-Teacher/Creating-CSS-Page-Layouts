@@ -3,11 +3,9 @@
     
 /* GRID */
     .large-3 {
-        width: 25%;
+        flex-basis: 25%;
     
     }
-    
-    
     
     
 } /* end of media query */

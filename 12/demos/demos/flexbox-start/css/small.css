@@ -9,19 +9,18 @@ body {
     font-weight: 300;
 }
 
-
 /* GRID */
 .row {
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
-    float: left; 
     padding: 0 2vw; 
     margin: 0 0 .75rem 0;
 }
 .small-12 {
-    width: 100%;
+    flex-basis: 100%;
     
 }
 
@@ -47,13 +46,3 @@ footer ul {
      
 }
 footer li {padding-bottom: .3rem;}
-
-
-
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
